@@ -1,0 +1,25 @@
+{
+  "name": "scimap-geolibre-plugin",
+  "version": "0.1.0",
+  "description": "SCIMAP Sediment and Network Index risk mapping for GeoLibre",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "reference": "python3 scripts/dump_reference.py",
+    "package": "npm run build && node scripts/package.mjs"
+  },
+  "dependencies": {
+    "geolibre-wasm": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.0"
+  }
+}

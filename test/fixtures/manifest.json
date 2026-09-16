@@ -1,0 +1,30 @@
+{
+  "width": 40,
+  "height": 32,
+  "cellSize": 25.0,
+  "cellArea": 625.0,
+  "streamCellThreshold": 12.0,
+  "arrays": {
+    "dem": "f64",
+    "slope": "f64",
+    "accum": "f64",
+    "rainfall": "f64",
+    "d8": "f64",
+    "mask": "u8",
+    "channel": "u8",
+    "landcover": "f64",
+    "rain_scaled": "f64",
+    "twi": "f64",
+    "connectivity_d8": "f64",
+    "connectivity_dem": "f64",
+    "pdsl_d8": "f64",
+    "pdsl_dem": "f64",
+    "erosion_raw": "f64",
+    "erosion_no_power": "f64",
+    "risk_weight": "f64",
+    "scimap_classes": "f64",
+    "erosion_risk": "f64",
+    "risk_concentration": "f64",
+    "channel_risk_concentration": "f64"
+  }
+}
